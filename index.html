@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GCSE Planet</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #0056b3;
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #003f8a;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 15px;
+        }
+        .subject {
+            margin-bottom: 20px;
+        }
+        .subject h2 {
+            background-color: #0056b3;
+            color: white;
+            padding: 10px;
+        }
+        .subject ul {
+            list-style: none;
+            padding: 0;
+        }
+        .subject li {
+            background-color: white;
+            margin: 5px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #0056b3;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>GCSE Planet</h1>
+    <p>Your one-stop platform for GCSE revision resources</p>
+</header>
+
+<nav>
+    <a href="#maths">Maths</a>
+    <a href="#physics">Physics</a>
+    <a href="#chemistry">Chemistry</a>
+    <a href="#biology">Biology</a>
+</nav>
+
+<div class="container">
+    <div class="subject" id="maths">
+        <h2>Maths</h2>
+        <ul>
+            <li><a href="#">Algebra</a></li>
+            <li><a href="#">Geometry</a></li>
+            <li><a href="#">Trigonometry</a></li>
+            <li><a href="#">Statistics</a></li>
+        </ul>
+    </div>
+
+    <div class="subject" id="physics">
+        <h2>Physics</h2>
+        <ul>
+            <li><a href="#">Forces</a></li>
+            <li><a href="#">Energy</a></li>
+            <li><a href="#">Waves</a></li>
+            <li><a href="#">Electricity</a></li>
+        </ul>
+    </div>
+
+    <div class="subject" id="chemistry">
+        <h2>Chemistry</h2>
+        <ul>
+            <li><a href="#">Atomic Structure</a></li>
+            <li><a href="#">Periodic Table</a></li>
+            <li><a href="#">Chemical Reactions</a></li>
+            <li><a href="#">Organic Chemistry</a></li>
+        </ul>
+    </div>
+
+    <div class="subject" id="biology">
+        <h2>Biology</h2>
+        <ul>
+            <li><a href="#">Cell Biology</a></li>
+            <li><a href="#">Ecology</a></li>
+            <li><a href="#">Genetics</a></li>
+            <li><a href="#">Human Biology</a></li>
+        </ul>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 GCSE Planet. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
